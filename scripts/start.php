@@ -67,6 +67,7 @@ function prepare_game($total_questions){
             
             <div>
                 <button type="submit" class="btn">Iniciar</button>
+                <a href="scripts/tabela.php" class="btn btn-secondary p-3 w-50">placar</a>
             </div>
         </form>
     </div>
