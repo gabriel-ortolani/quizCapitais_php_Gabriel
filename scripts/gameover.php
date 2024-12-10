@@ -1,5 +1,5 @@
 <?php
-    $total_question = $_SESSION['game']['total_qustions'];
+    $total_question = $_SESSION['game']['total_questions'];
     $correct_answers = $_SESSION['game']['correct_answers'];
     $incorrect_answers = $_SESSION['game']['incorrect_answers'];
 ?>

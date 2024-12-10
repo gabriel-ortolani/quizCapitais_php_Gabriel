@@ -39,7 +39,7 @@ function prepare_game($total_questions){
 
         $questions[] = [
             'question' => $capitals[$id][0],
-            'corrent_answer' => $id,
+            'correct_answer' => $id,
             'answers' => $answers
         ];
     }
@@ -48,7 +48,7 @@ function prepare_game($total_questions){
 
     $_SESSION['game'] = [
         'total_questions' => $total_questions,
-        'current_questions' => 0,
+        'current_question' => 0,
         'correct_answers' => 0,
         'incorrect_answers' => 0,
     ];

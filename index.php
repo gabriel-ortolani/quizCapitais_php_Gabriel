@@ -7,7 +7,7 @@ $route = $_GET['route'] ?? 'start';
 $script = null;
 
 switch ($route) {
-    case 'start';
+    case 'start':
         $script = 'start';
     break;
 
