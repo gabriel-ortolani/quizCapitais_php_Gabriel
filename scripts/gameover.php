@@ -3,7 +3,7 @@
     $correct_answers = $_SESSION['game']['correct_answers'];
     $incorrect_answers = $_SESSION['game']['incorrect_answers'];
 
-    $pontuacao = $correct_answers;
+    $pontuacao = $correct_answers . '/' . $total_question;
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Captura os dados do formulário
